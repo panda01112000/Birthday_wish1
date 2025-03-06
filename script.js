@@ -18,8 +18,8 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function loadImages() {
-    const repoOwner = "your-username";
-    const repoName = "your-repository";
+    const repoOwner = "panda01112000";
+    const repoName = "Birthday_wish1";
     const folderPath = "images";
     const apiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/${folderPath}`;
 
